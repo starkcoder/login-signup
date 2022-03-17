@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <div id="loginwrapper"> 
+            <div class="btn-wrapper">
+                <button class="btns" id="btnlogin">login</button>
+                <button class="btns" id="btnsign">register</button>
+           </div>
+           <div class="inputs" id="input" >
+               <input type="text" required name="email" id="mail" placeholder="Email Address">
+               <input type="password" name="password" id="password" placeholder="Password" required ><i id="togglepwd" class="fa fa-eye" aria-hidden="true"></i>
+               <input type="checkbox"><p>Remember password</p> 
+               <button class="login-btn">login</button>
+               <hr>
+               <button class="google-btn">sign in with google</button>
+               <button class="fb-btn">sign in with facebook</button>
+           </div>
+           <div class="inputs-login"id="login">
+            <input type="text" name="email" id="mail" placeholder="Email Address">
+            <input type="password" name="password" id="password2" placeholder="Password"> <i  id="togglepwd2" class="fa fa-eye" aria-hidden="true"></i>
+            <button class="login-btn">login</button>
+        </div>
+        </div>
+    </section>
+    <script src="js/login-js.js"></script>
+</body>
+</html>
